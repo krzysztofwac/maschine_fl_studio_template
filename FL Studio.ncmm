@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ni-controller-midi-map version="1">
+
+  <midi-map name="FL Studio" port="internal" type="Maschine">
+    <handleGroupControls/>
+    <velocitycurve>1</velocitycurve>
+    <controls>
+      <button id="Main">
+        <name>METERS</name>
+        <note>6</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Enter">
+        <name>UP</name>
+        <note>16</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Browse">
+        <name>LEFT</name>
+        <note>18</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Sampling">
+        <name>RIGHT</name>
+        <note>19</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Group">
+        <name>SESSION</name>
+        <note>20</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Repeat">
+        <name>DOWN</name>
+        <note>17</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Restart">
+        <name>STOP</name>
+        <note>11</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Prev">
+        <name>&lt;&lt;</name>
+        <note>13</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Next">
+        <name>&gt;&gt;</name>
+        <note>14</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Grid">
+        <name>DRUM</name>
+        <note>39</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Play">
+        <name>PLAY</name>
+        <note>10</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Rec">
+        <name>REC</name>
+        <note>12</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Erase">
+        <name>SONG</name>
+        <note>15</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Scene">
+        <name>SCENE</name>
+        <note>24</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Pattern">
+        <name>+SCENE</name>
+        <note>25</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Pad Mode">
+        <name>SAME MODE</name>
+        <note>26</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Navigate">
+        <name>QUEUE</name>
+        <note>27</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Duplicate">
+        <name>SNAP</name>
+        <note>33</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Select">
+        <name>G SNAP</name>
+        <note>34</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Solo">
+        <disabled/>
+        <note>30</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Mute">
+        <name>MUTE</name>
+        <note>31</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+    </controls>
+    <pages>
+      <current_index>0</current_index>
+      <page name="System (base)">
+        <wheel id="Dial">
+          <name>LAST TWEAKED</name>
+          <controller mode="offset">127</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button id="Push">
+          <note>0</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F1">
+          <name>METRO</name>
+          <note>110</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F2">
+          <name>WAIT</name>
+          <note>111</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F3">
+          <name>OVERDUB</name>
+          <note>112</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="System (jog)">
+        <wheel id="Dial">
+          <name>JOG 2</name>
+          <controller mode="offset">1</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button id="Push">
+          <note>2</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F1">
+          <name>+MRK</name>
+          <note>33</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F2">
+          <name>LOOP REC</name>
+          <note>113</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F3">
+          <name>STEP EDIT</name>
+          <note>114</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="System (windows)">
+        <wheel id="Dial">
+          <name>WINDOW</name>
+          <controller mode="offset">59</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button id="Push">
+          <note>58</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F1">
+          <name>MIXER</name>
+          <note>68</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F2">
+          <name>STEP SQ</name>
+          <note>65</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F3">
+          <name>PLAYLIST</name>
+          <note>64</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="System (browser)">
+        <wheel id="Dial">
+          <name>JOG / ENTER</name>
+          <controller mode="offset">0</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button id="Push">
+          <note>80</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F1">
+          <name>LEFT</name>
+          <note>42</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F2">
+          <name>RIGHT</name>
+          <note>43</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F3">
+          <name>BROWSER</name>
+          <note>67</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="System (edit)">
+        <wheel id="Dial">
+          <name>UNDO</name>
+          <controller mode="offset">22</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button id="Push">
+          <note>20</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F1">
+          <name>CUT</name>
+          <note>50</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F2">
+          <name>COPY</name>
+          <note>51</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F3">
+          <name>PASTE</name>
+          <note>52</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="System (tempo)">
+        <wheel id="Dial">
+          <name>TEMPO</name>
+          <controller mode="offset">105</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button id="Push">
+          <note>106</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F1">
+          <name>NUDGE-</name>
+          <note>107</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F2">
+          <name>NUDGE+</name>
+          <note>108</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F3">
+          <name>TAP</name>
+          <note>106</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="Free">
+        <wheel id="Dial">
+          <name>FREE</name>
+          <controller mode="offset">0</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button id="Push">
+          <note>1</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F1">
+          <name>BTN 1</name>
+          <note>0</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F2">
+          <name>BTN 2</name>
+          <note>1</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="F3">
+          <name>BTN 3</name>
+          <note>2</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+    </pages>
+    <groups>
+      <current_index>0</current_index>
+      <group name="Empty">
+        <pad id="Pad1" subtype="trigger">
+          <name>4-1</name>
+          <note>12</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure1" subtype="pressure">
+          <controller>12</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad2" subtype="trigger">
+          <name>4-2</name>
+          <note>13</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure2" subtype="pressure">
+          <controller>13</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad3" subtype="trigger">
+          <name>4-3</name>
+          <note>14</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure3" subtype="pressure">
+          <controller>14</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad4" subtype="trigger">
+          <name>4-4</name>
+          <note>15</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure4" subtype="pressure">
+          <controller>15</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad5" subtype="trigger">
+          <name>3-1</name>
+          <note>8</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure5" subtype="pressure">
+          <controller>8</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad6" subtype="trigger">
+          <name>3-2</name>
+          <note>9</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure6" subtype="pressure">
+          <controller>9</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad7" subtype="trigger">
+          <name>3-3</name>
+          <note>10</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure7" subtype="pressure">
+          <controller>10</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad8" subtype="trigger">
+          <name>3-4</name>
+          <note>11</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure8" subtype="pressure">
+          <controller>11</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad9" subtype="trigger">
+          <name>2-1</name>
+          <note>4</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure9" subtype="pressure">
+          <controller>4</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad10" subtype="trigger">
+          <name>2-2</name>
+          <note>5</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure10" subtype="pressure">
+          <controller>5</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad11" subtype="trigger">
+          <name>2-3</name>
+          <note>6</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure11" subtype="pressure">
+          <controller>6</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad12" subtype="trigger">
+          <name>2-4</name>
+          <note>7</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure12" subtype="pressure">
+          <controller>7</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad13" subtype="trigger">
+          <name>1-1</name>
+          <note>0</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure13" subtype="pressure">
+          <controller>0</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad14" subtype="trigger">
+          <name>1-2</name>
+          <note>1</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure14" subtype="pressure">
+          <controller>1</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad15" subtype="trigger">
+          <name>1-3</name>
+          <note>2</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure15" subtype="pressure">
+          <controller>2</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad16" subtype="trigger">
+          <name>1-4</name>
+          <note>3</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure16" subtype="pressure">
+          <controller>3</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+      </group>
+    </groups>
+  </midi-map>
+
+</ni-controller-midi-map>

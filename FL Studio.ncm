@@ -1,0 +1,2606 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ni-controller-midi-map version="1">
+
+  <midi-map name="FL Studio" port="internal" type="Maschine">
+    <handleGroupControls/>
+    <velocitycurve>1</velocitycurve>
+    <controls>
+      <button id="Control">
+        <name>REFRESH</name>
+        <note>37</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Step">
+        <disabled/>
+        <controller>38</controller>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Browse">
+        <disabled/>
+        <note>35</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Sample">
+        <disabled/>
+        <note>36</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="F1">
+        <name>SNAP</name>
+        <note>33</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="F2">
+        <name>G  SNAP</name>
+        <note>34</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <knob id="Volume">
+        <name>TRACK  OFS</name>
+        <controller>0</controller>
+        <channel>14</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+        <range>2000</range>
+        <bipolar>off</bipolar>
+      </knob>
+      <knob id="Tempo">
+        <name>CLIP  OFS</name>
+        <controller>1</controller>
+        <channel>14</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+        <range>2000</range>
+        <bipolar>off</bipolar>
+      </knob>
+      <knob id="Swing">
+        <name>LAST</name>
+        <controller>127</controller>
+        <channel>12</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+        <range>360</range>
+        <bipolar>off</bipolar>
+      </knob>
+      <button id="Repeat">
+        <name>ALT</name>
+        <note>32</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="A">
+        <disabled/>
+        <note>0</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>7</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="B">
+        <name>UP</name>
+        <note>16</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="C">
+        <disabled/>
+        <controller>82</controller>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>toogle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="D">
+        <name>DRUM</name>
+        <note>39</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="E">
+        <name>LEFT</name>
+        <note>18</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="F">
+        <name>DOWN</name>
+        <note>17</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="G">
+        <name>RIGHT</name>
+        <note>19</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="H">
+        <name>SESSION</name>
+        <note>20</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Loop">
+        <name>STOP</name>
+        <note>11</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Prev.">
+        <name>&lt;&lt;</name>
+        <note>13</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Next">
+        <name>&gt;&gt;</name>
+        <note>14</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Grid">
+        <name>METERS</name>
+        <note>6</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Play">
+        <name>PLAY</name>
+        <note>10</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Record">
+        <name>REC</name>
+        <note>12</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Erase">
+        <name>SONG</name>
+        <note>15</note>
+        <channel>13</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Scene">
+        <name>SCENE</name>
+        <note>24</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Pattern">
+        <name>+SCENE</name>
+        <note>25</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Keyboard">
+        <name>SAME  MODE</name>
+        <note>26</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Navigate">
+        <disabled/>
+        <note>28</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Duplicate">
+        <name>QUEUE</name>
+        <note>27</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Select">
+        <disabled/>
+        <note>29</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Solo">
+        <disabled/>
+        <note>30</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button id="Mute">
+        <name>MUTE</name>
+        <note>31</note>
+        <channel>14</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior>gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+    </controls>
+    <pages>
+      <current_index>3</current_index>
+      <page name="System (tracks)">
+        <knob id="Knob1">
+          <name>PATTERN</name>
+          <controller>100</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>TRACK</name>
+          <controller>101</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>CHANNEL</name>
+          <controller>102</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>SNAP</name>
+          <controller>49</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name>MARKER</name>
+          <controller>35</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name>MRK SEL</name>
+          <controller>36</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>720</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name>WINDOW</name>
+          <controller>59</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name>UNDO</name>
+          <controller>22</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>PIANO</name>
+          <note>66</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>MIXER</name>
+          <note>68</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>STEP SQ</name>
+          <note>65</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>SNAP</name>
+          <note>48</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>+MRK</name>
+          <note>33</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>+MRK</name>
+          <note>34</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>IN</name>
+          <note>31</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>OUT</name>
+          <note>32</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="System (jogs)">
+        <knob id="Knob1">
+          <name>JOG 1</name>
+          <controller>0</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>JOG 2</name>
+          <controller>1</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>SELECT</name>
+          <controller>7</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>MOVE</name>
+          <controller>8</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name>V ZOOM</name>
+          <controller>45</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name>H ZOOM</name>
+          <controller>44</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>720</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name>WINDOW</name>
+          <controller>59</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name>UNDO</name>
+          <controller>22</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>UP</name>
+          <note>40</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>DOWN</name>
+          <note>41</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>LEFT</name>
+          <note>42</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>RIGHT</name>
+          <note>43</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>ENTER</name>
+          <note>80</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>ESC</name>
+          <note>81</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>MENU</name>
+          <note>90</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>UNDO</name>
+          <note>20</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="System (windows)">
+        <knob id="Knob1">
+          <name>JOG 1</name>
+          <controller>0</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>JOG 2</name>
+          <controller>1</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>SELECT</name>
+          <controller>7</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>MOVE</name>
+          <controller>8</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name> </name>
+          <disabled/>
+          <controller>35</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name> </name>
+          <disabled/>
+          <controller>36</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>720</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name>WINDOW</name>
+          <controller>59</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name> </name>
+          <disabled/>
+          <controller>22</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>PIANO</name>
+          <note>66</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>MIXER</name>
+          <note>68</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>STEP SQ</name>
+          <note>65</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>PLAYLIST</name>
+          <note>64</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>BROWSER</name>
+          <note>67</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>  </name>
+          <disabled/>
+          <note>34</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>NEXT</name>
+          <note>58</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>  </name>
+          <disabled/>
+          <note>32</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="System (edit)">
+        <knob id="Knob1">
+          <name>JOG 1</name>
+          <controller>0</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>JOG 2</name>
+          <controller>1</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>SELECT</name>
+          <controller>7</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>MOVE</name>
+          <controller>8</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name> </name>
+          <disabled/>
+          <controller>35</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name> </name>
+          <disabled/>
+          <controller>36</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>720</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name> </name>
+          <disabled/>
+          <controller>59</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name>UNDO</name>
+          <controller>22</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>CUT</name>
+          <note>50</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>COPY</name>
+          <note>51</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>PASTE</name>
+          <note>52</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>INSERT</name>
+          <note>53</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>DELETE</name>
+          <note>54</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>  </name>
+          <disabled/>
+          <note>34</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name> </name>
+          <disabled/>
+          <note>58</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>UNDO</name>
+          <note>20</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="System (functions)">
+        <knob id="Knob1">
+          <name>JOG 1</name>
+          <controller>0</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>JOG 2</name>
+          <controller>1</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>SELECT</name>
+          <controller>7</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>MOVE</name>
+          <controller>8</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name> </name>
+          <disabled/>
+          <controller>35</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name>TEMPO</name>
+          <controller>105</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>720</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name> </name>
+          <disabled/>
+          <controller>59</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name> </name>
+          <disabled/>
+          <controller>22</controller>
+          <channel>13</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>3600</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>METRO</name>
+          <note>110</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>WAIT</name>
+          <note>111</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>OVERDUB</name>
+          <note>112</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>LOOP REC</name>
+          <note>113</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>STEP EDIT</name>
+          <note>114</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>TAP</name>
+          <note>106</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>NUDGE-</name>
+          <note>107</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>NUDGE+</name>
+          <note>108</note>
+          <channel>13</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="Absolute knobs 1">
+        <knob id="Knob1">
+          <name>KNOB 1</name>
+          <controller>0</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>KNOB 2</name>
+          <controller>1</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>KNOB 3</name>
+          <controller>2</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>KNOB 4</name>
+          <controller>3</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name>KNOB 5</name>
+          <controller>4</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name>KNOB 6</name>
+          <controller>5</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name>KNOB 7</name>
+          <controller>6</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name>KNOB 8</name>
+          <controller>7</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>BTN 1</name>
+          <note>0</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>BTN 2</name>
+          <note>1</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>BTN 3</name>
+          <note>2</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>BTN 4</name>
+          <note>3</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>BTN 5</name>
+          <note>4</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>BTN 6</name>
+          <note>5</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>BTN 7</name>
+          <note>6</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>BTN 8</name>
+          <note>7</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="Absolute knobs 2">
+        <knob id="Knob1">
+          <name>KNOB 9</name>
+          <controller>8</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>KNOB 10</name>
+          <controller>9</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>KNOB 11</name>
+          <controller>10</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>KNOB 12</name>
+          <controller>11</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name>KNOB 13</name>
+          <controller>12</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name>KNOB 14</name>
+          <controller>13</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name>KNOB 15</name>
+          <controller>14</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name>KNOB 16</name>
+          <controller>15</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>BTN 9</name>
+          <note>8</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>BTN 10</name>
+          <note>9</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>BTN 11</name>
+          <note>10</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>BTN 12</name>
+          <note>11</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>BTN 13</name>
+          <note>12</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>BTN 14</name>
+          <note>13</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>BTN 15</name>
+          <note>14</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>BTN 16</name>
+          <note>15</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="Absolute knobs 3">
+        <knob id="Knob1">
+          <name>KNOB 17</name>
+          <controller>16</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>KNOB 18</name>
+          <controller>17</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>KNOB 19</name>
+          <controller>18</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>KNOB 20</name>
+          <controller>19</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name>KNOB 21</name>
+          <controller>20</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name>KNOB 22</name>
+          <controller>21</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name>KNOB 23</name>
+          <controller>22</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name>KNOB 24</name>
+          <controller>23</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>BTN 17</name>
+          <note>16</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>BTN 18</name>
+          <note>17</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>BTN 19</name>
+          <note>18</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>BTN 20</name>
+          <note>19</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>BTN 21</name>
+          <note>20</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>BTN 22</name>
+          <note>21</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>BTN 23</name>
+          <note>22</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>BTN 24</name>
+          <note>23</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="Absolute knobs 4">
+        <knob id="Knob1">
+          <name>KNOB 25</name>
+          <controller>24</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>KNOB 26</name>
+          <controller>25</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>KNOB 27</name>
+          <controller>26</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>KNOB 28</name>
+          <controller>27</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name>KNOB 29</name>
+          <controller>28</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name>KNOB 30</name>
+          <controller>29</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name>KNOB 31</name>
+          <controller>30</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name>KNOB 32</name>
+          <controller>31</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>off</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>BTN 25</name>
+          <note>24</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>BTN 26</name>
+          <note>25</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>BTN 27</name>
+          <note>26</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>BTN 28</name>
+          <note>27</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>BTN 29</name>
+          <note>28</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>BTN 30</name>
+          <note>29</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>BTN 31</name>
+          <note>30</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>BTN 32</name>
+          <note>31</note>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="Relative knobs 1">
+        <knob id="Knob1">
+          <name>KNOB 1</name>
+          <controller>0</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>KNOB 2</name>
+          <controller>1</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>KNOB 3</name>
+          <controller>2</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>KNOB 4</name>
+          <controller>3</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name>KNOB 5</name>
+          <controller>4</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name>KNOB 6</name>
+          <controller>5</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name>KNOB 7</name>
+          <controller>6</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name>KNOB 8</name>
+          <controller>7</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>BTN 1</name>
+          <note>0</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>BTN 2</name>
+          <note>1</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>BTN 3</name>
+          <note>2</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>BTN 4</name>
+          <note>3</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>BTN 5</name>
+          <note>4</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>BTN 6</name>
+          <note>5</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>BTN 7</name>
+          <note>6</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>BTN 8</name>
+          <note>7</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="Relative knobs 2">
+        <knob id="Knob1">
+          <name>KNOB 9</name>
+          <controller>8</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>KNOB 10</name>
+          <controller>9</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>KNOB 11</name>
+          <controller>10</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>KNOB 12</name>
+          <controller>11</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name>KNOB 13</name>
+          <controller>12</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name>KNOB 14</name>
+          <controller>13</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name>KNOB 15</name>
+          <controller>14</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name>KNOB 16</name>
+          <controller>15</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>BTN 9</name>
+          <note>8</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>BTN 10</name>
+          <note>9</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>BTN 11</name>
+          <note>10</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>BTN 12</name>
+          <note>11</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>BTN 13</name>
+          <note>12</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>BTN 14</name>
+          <note>13</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>BTN 15</name>
+          <note>14</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>BTN 16</name>
+          <note>15</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="Relative knobs 3">
+        <knob id="Knob1">
+          <name>KNOB 17</name>
+          <controller>16</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>KNOB 18</name>
+          <controller>17</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>KNOB 19</name>
+          <controller>18</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>KNOB 20</name>
+          <controller>19</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name>KNOB 21</name>
+          <controller>20</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name>KNOB 22</name>
+          <controller>21</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name>KNOB 23</name>
+          <controller>22</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name>KNOB 24</name>
+          <controller>23</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>BTN 17</name>
+          <note>16</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>BTN 18</name>
+          <note>17</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>BTN 19</name>
+          <note>18</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>BTN 20</name>
+          <note>19</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>BTN 21</name>
+          <note>20</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>BTN 22</name>
+          <note>21</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>BTN 23</name>
+          <note>22</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>BTN 24</name>
+          <note>23</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="Relative knobs 4">
+        <knob id="Knob1">
+          <name>KNOB 25</name>
+          <controller>24</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob2">
+          <name>KNOB 26</name>
+          <controller>25</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob3">
+          <name>KNOB 27</name>
+          <controller>26</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob4">
+          <name>KNOB 28</name>
+          <controller>27</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob5">
+          <name>KNOB 29</name>
+          <controller>28</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob6">
+          <name>KNOB 30</name>
+          <controller>29</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob7">
+          <name>KNOB 31</name>
+          <controller>30</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <knob id="Knob8">
+          <name>KNOB 32</name>
+          <controller>31</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <bipolar>on</bipolar>
+        </knob>
+        <button id="Button1">
+          <name>BTN 25</name>
+          <note>24</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button2">
+          <name>BTN 26</name>
+          <note>25</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button3">
+          <name>BTN 27</name>
+          <note>26</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button4">
+          <name>BTN 28</name>
+          <note>27</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button5">
+          <name>BTN 29</name>
+          <note>28</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button6">
+          <name>BTN 30</name>
+          <note>29</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button7">
+          <name>BTN 31</name>
+          <note>30</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Button8">
+          <name>BTN 32</name>
+          <note>31</note>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+    </pages>
+    <groups>
+      <current_index>0</current_index>
+      <group name="Empty">
+        <pad id="Pad1" subtype="trigger">
+          <name>4-1</name>
+          <note>12</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure1" subtype="pressure">
+          <controller>12</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad2" subtype="trigger">
+          <name>4-2</name>
+          <note>13</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure2" subtype="pressure">
+          <controller>13</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad3" subtype="trigger">
+          <name>4-3</name>
+          <note>14</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure3" subtype="pressure">
+          <controller>14</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad4" subtype="trigger">
+          <name>4-4</name>
+          <note>15</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure4" subtype="pressure">
+          <controller>15</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad5" subtype="trigger">
+          <name>3-1</name>
+          <note>8</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure5" subtype="pressure">
+          <controller>8</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad6" subtype="trigger">
+          <name>3-2</name>
+          <note>9</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure6" subtype="pressure">
+          <controller>9</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad7" subtype="trigger">
+          <name>3-3</name>
+          <note>10</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure7" subtype="pressure">
+          <controller>10</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad8" subtype="trigger">
+          <name>3-4</name>
+          <note>11</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure8" subtype="pressure">
+          <controller>11</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad9" subtype="trigger">
+          <name>2-1</name>
+          <note>4</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure9" subtype="pressure">
+          <controller>4</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad10" subtype="trigger">
+          <name>2-2</name>
+          <note>5</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure10" subtype="pressure">
+          <controller>5</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad11" subtype="trigger">
+          <name>2-3</name>
+          <note>6</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure11" subtype="pressure">
+          <controller>6</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad12" subtype="trigger">
+          <name>2-4</name>
+          <note>7</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure12" subtype="pressure">
+          <controller>7</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad13" subtype="trigger">
+          <name>1-1</name>
+          <note>0</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure13" subtype="pressure">
+          <controller>0</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad14" subtype="trigger">
+          <name>1-2</name>
+          <note>1</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure14" subtype="pressure">
+          <controller>1</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad15" subtype="trigger">
+          <name>1-3</name>
+          <note>2</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure15" subtype="pressure">
+          <controller>2</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+        <pad id="Pad16" subtype="trigger">
+          <name>1-4</name>
+          <note>3</note>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad id="Pressure16" subtype="pressure">
+          <controller>3</controller>
+          <channel>15</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </pad>
+      </group>
+    </groups>
+  </midi-map>
+
+</ni-controller-midi-map>
